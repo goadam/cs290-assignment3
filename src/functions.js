@@ -32,7 +32,7 @@ var barType = typeof bar;
 */
 
 //your code here
-bar = function (doubleArray) {
+/**bar = function (doubleArray) {
 	if(doubleArray.isArray) {
 		for(i = 0; i < doubleArray.length; i++) {
 			if(typeof === 'number') {
@@ -43,7 +43,7 @@ bar = function (doubleArray) {
 		}
 	}
 	return true;
-}
+}**/
 //end your code
 
 /**
@@ -79,7 +79,7 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
-function parseGit(logArray) {
+/**function parseGit(logArray) {
 	var gitLogArr = Array[];
 	var logArrSplit = Array[];
 	var dateString;
@@ -89,5 +89,5 @@ function parseGit(logArray) {
 		gitLogArr[i] = GitLog(logArraySplit[0], dateString, logArrSplit[7]);
 	}
 	return gitLogArr;
-}
+}**/
 //end your code
