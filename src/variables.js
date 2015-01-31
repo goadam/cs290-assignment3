@@ -16,7 +16,7 @@ function variableModification(a) {
   //your code here
   var plus5 = 5 + a;
   var asString = a.toString();
-  var yourNumberIs = "Your Number is '" + a + "'."; 
+  var yourNumberIs = "Your Number is " + a + "."; 
   //end your code
   return [plus5, asString, yourNumberIs, a];
 }
