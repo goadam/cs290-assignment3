@@ -33,10 +33,10 @@ var barType = typeof bar;
 
 //your code here
 var bar = function (doubleArray) {
-	if(doubleArray.isArray) {
+	if(typeof doubleArray === 'object') {
 		for(i = 0; i < doubleArray.length; i++) {
 			if(typeof doubleArray[i] === 'number') {
-				doubleArray *= 2.0;
+				doubleArray[i] *= 2.0;
 			} else {
 				return false;
 			}
@@ -79,15 +79,22 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
-/**function parseGit(logArray) {
-	var gitLogArr = Array[];
-	var logArrSplit = Array[];
-	var dateString;
+function parseGit(logArray) {
+	var gitLogArr = [];
+	var logArrSplit = [];
+	var dateString = [];
+	var message = [];
+	var hash = 0;
 	for(i = 0; i < logArray.length; i++) {
 		logArrSplit = logArray[i].split(" ");
+		hash = logArrSplit[0];
 		dateString = logArrSplit[1] + " " + logArrSplit[2] + " " + logArrSplit[3] + " " + logArrSplit[4] + " " + logArrSplit[5] + " " + logArrSplit[6];
-		gitLogArr[i] = GitLog(logArraySplit[0], dateString, logArrSplit[7]);
+		logArrSplit = logArray[i].split('\"')
+		message.push(logArrSplit[1]); 
+			
+		gitLogArr[i] = (new GitLog(hash, new Date(dateString), message.join(" ")));
+		message = [];
 	}
 	return gitLogArr;
-}**/
+}
 //end your code
