@@ -32,18 +32,18 @@ var barType = typeof bar;
 */
 
 //your code here
-/**bar = function (doubleArray) {
+var bar = function (doubleArray) {
 	if(doubleArray.isArray) {
 		for(i = 0; i < doubleArray.length; i++) {
-			if(typeof === 'number') {
-				doubleArray[i] *= 2;
+			if(typeof doubleArray[i] === 'number') {
+				doubleArray *= 2.0;
 			} else {
 				return false;
 			}
 		}
 	}
 	return true;
-}**/
+}
 //end your code
 
 /**
