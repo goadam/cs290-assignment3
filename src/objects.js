@@ -38,7 +38,7 @@ function returnObjectLiteral() {
 */
 
 //your code here
-/***function MessageLog(user) {
+function MessageLog(user) {
 	this.user = user;
 	this.sent = 0;
 	this.received = 0;
@@ -59,7 +59,7 @@ function returnObjectLiteral() {
 	}
 	
 	this.getSentMessage = function (n) {
-		return sentArr[n];
+		return this.sentArr[n];
 	}
 	
 	this.totalSent = function () {
@@ -68,7 +68,8 @@ function returnObjectLiteral() {
 	
 	this.totalReceived = function () {
 		return this.received;
-	}***/
+	}
+}
 	//end your code
 
 /**
@@ -77,9 +78,9 @@ function returnObjectLiteral() {
 * received.
 */
 //your code here
-/***MessageLog.prortype.lastReceivedMessage() {
-	return this.lastRecieved;
-}***/
+MessageLog.prototype.lastReceivedMessage = function() {
+	return this.lastReceived;
+}
 //end your code
 
 /**
@@ -89,8 +90,8 @@ function returnObjectLiteral() {
 */
 
 //your code here
-/***var myLog = new MessageLog("BlackHatGuy");
+var myLog = new MessageLog("BlackHatGuy");
 myLog.logMessage("foo", 1);
 myLog.logMessage("bar", 1);
-myLog.logMessage("baz", 1);***/
+myLog.logMessage("baz", 1);
 //end your code
