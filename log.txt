@@ -1,1 +1,49 @@
-You log goes in this  file.
+commit 3291cac60b9ca19ab971f720390dfec3d9a5c2d7
+Author: Adam Martinez <adam70181@yahoo.com>
+commit 3291cac60b9ca19ab971f720390dfec3d9a5c2d7
+Author: Adam Martinez <adam70181@yahoo.com>
+Date:   Sat Jan 31 21:43:11 2015 -0600
+
+    complete, no errors
+
+commit 80e2c25c7b49826ac7a2f8f83365dff0c6b77d68
+Author: Adam Martinez <adam70181@yahoo.com>
+Date:   Sat Jan 31 21:28:55 2015 -0600
+
+    fixed return object literal
+
+commit e2f6f3ccf015d71cb154c4b6f73b91995e253781
+Author: Adam Martinez <adam70181@yahoo.com>
+Date:   Sat Jan 31 21:00:10 2015 -0600
+
+    fixed parseGit
+
+commit 313c14a35b8077de402158ee2397b1f853571058
+Author: Adam Martinez <adam70181@yahoo.com>
+Date:   Sat Jan 31 19:45:10 2015 -0600
+
+    fix to bar function.
+
+commit a5e1030521272ab8937a298b85396d61f4c9bf6d
+Author: Adam Martinez <adam70181@yahoo.com>
+Date:   Sat Jan 31 16:31:58 2015 -0600
+
+    fix to useless function. Commented out rest of c
+
+commit c241046f8056644cb7766b2ebad4c7ce77ab2a4d
+Author: Adam Martinez <adam70181@yahoo.com>
+Date:   Sat Jan 31 16:12:34 2015 -0600
+
+    add fix to variableModification
+
+commit 6147913ba13f5a9885cdef182749d5d828806d02
+Author: Adam Martinez <adam70181@yahoo.com>
+Date:   Sat Jan 31 16:11:29 2015 -0600
+
+    add fix to variableModification
+
+commit 6c5851fd1f2a43c0a866d69f1248c46d368988d3
+Author: Adam Martinez <adam70181@yahoo.com>
+Date:   Sat Jan 31 16:00:11 2015 -0600
+
+    initial commit; functions, objects, variables
